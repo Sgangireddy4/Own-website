@@ -1,0 +1,463 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background: #989898;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #181818;
+  border-radius: 0;
+  border: 0;
+}
+
+#header-nav .container {
+  margin-right: 25px;
+  margin-left: 5px;
+  padding-right: 35px;
+  width:100%;
+}
+
+#logo-1, #logo-2 {
+  width: 50px;
+  height: 50px;
+  margin: 5px 5px 5px 0;
+  float: right;
+}
+
+#header-nav #collapsable-nav {
+  float:left;
+  clear: all;
+}
+
+#header-nav .collapse.in {
+  z-index: 1000;
+  }
+
+
+#navbar-title{
+  padding-top: 15px;
+  float: right;
+}
+
+#navbar-title h1 { 
+  font-family: 'Lora', serif;
+  color: #008ae6;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#navbar-title a:hover, .navbar-title a:focus {
+  text-decoration:none;
+}
+
+#navbar-title h1:hover, .navbar-title h1:focus, .navbar-title h1:active {
+  color: white;
+}
+
+#navbar-title p { 
+  margin-top: 10px;
+  float:right;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #008ae6;
+  text-align: center;
+}
+#nav-list a:hover, #nav-list a:active {
+  background: #606060;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header {
+  width: 100%;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  position: absolute;
+  left: 10px;
+  margin-top: 30px;
+}
+
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #222;
+
+}
+.panel-footer div.row {
+  margin-bottom: 5px;
+}
+#Email, #address {
+  line-height: 1.2;
+}
+#Email> span, #address > span {
+  font-size: 1em;
+}
+#address p {
+  color: #181818;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+/* END FOOTER */
+
+
+
+/* HOME PAGE */
+
+#main-content{
+  /*background: url('../images/main-background.jpg');*/
+  /*height: 550px;*/
+  /*width: 95%;*/
+  /*position: relative;*/
+  background-color: #9acd32;
+  box-shadow: 0 0 50px #181818;
+  border: 2px solid #181818;
+}
+
+#main-content .container{
+  /*background: url('../images/main-background.jpg');*/
+  /*height: 550px;*/
+  /*width: 95%;*/
+  /*position: relative;*/
+  background-color: #9acd32;
+  box-shadow: 0 0 50px #181818;
+  border: 2px solid #181818;
+}
+#main-content #welcome {
+  font-weight: bolder;
+  background: #181818;
+  border: 1px solid #606060;
+  margin: 40px 0px 40px 0px;
+  box-shadow: 0 1px 15px 1px #606060;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #989898;
+  padding: 30px;
+}
+
+#cv-tile, #courses-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+#cv-tile:hover, #courses-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 20px 1px #fff;
+}
+#cv-tile span, #courses-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  background-color:  #727aed;
+  color: #fff;
+  opacity: .8;
+}
+
+
+/* END HOME PAGE */
+
+/*EDUCATION SUBPAGE*/
+
+#grad-school, #undergrad-school,  #publications {
+  background: #181818;
+  border: 1px solid #606060;
+  margin: 5px;
+  box-shadow: 0 1px 15px 1px #606060;
+  border-radius: 10px;
+}
+
+#grad-school div, #undergrad-school div {
+   margin-top: 5px;
+   font-size: 16px;
+}
+
+#grad-school span, #undergrad-school span {
+   margin-top: 5px;
+   font-size: 0.9em;
+}
+#grad-school img, #undergrad-school img{
+  margin: 5px;
+}
+
+#publications .holder div {
+  margin: 15px;
+}
+
+#publications #papers {
+  font-size: 14px;
+}
+/*END EDUCATION SUBPAGE*/
+
+
+
+/*WORK SUBPAGE*/
+
+#unt, #nist, #effcar {
+  box-sizing: border-box;
+}
+
+#unt .holder, #nist .holder, #effcar .holder{
+  background: #181818;
+  margin: 5px;
+  padding:15px;
+  font-size: 16px;
+  border: 1px solid #606060;
+  box-shadow: 0 1px 15px 1px #606060;
+  border-radius: 10px;
+}
+#unt div, #nist div, #effcar div {
+  background: #181818;
+  font-size: 16px;
+}
+
+#unt span, #nist span, #effcar span {
+   margin-top: 5px;
+   font-size: 0.9em;
+}
+/*END WORK SUBPAGE*/
+
+
+
+/*Passion SUBPAGE*/
+
+#courses, #bootcamp {
+  background: #181818;
+  margin: 5px;
+  padding:15px;
+  font-size: 16px;
+  border: 1px solid #606060;
+  box-shadow: 0 1px 15px 1px #606060;
+  border-radius: 10px;
+}
+#courses div, #bootcamp div{
+  font-size:18px;
+  margin:0px;
+  padding: 0px;
+}
+
+#real-class {
+  font-weight: bold;
+}
+/*End Passion Page*/
+
+
+/*HOBBIES */
+
+#painting, #travel, #yoga, #karate, #dance, #language, #stock, #food, #center {
+  background: #181818;
+  overflow: hidden;
+  padding: 35px;
+  font-size: 16px;
+  border: 1px solid #606060;
+  box-shadow: 0 1px 15px 1px #606060;
+  border-radius: 180px;
+}
+
+/*  END OF HOBBIES    */
+
+
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+  .navbar-title {
+    padding-top: 10px;
+    height: 100px;
+    float: right;
+  }
+
+  #cv-tile, #courses-tile, #map-tile {
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+  #center #center-matter, #center h1 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  /* Home Page */
+  #cv-tile, #courses-tile, #map-tile {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  }
+
+  /* End Home Page */
+#center #center-matter, #center h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  }
+
+ /*Work*/
+#unt h2, #nist h2, #effcar h2 {
+   margin-top: 5px;
+   font-size: 28px;
+  }  
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #cv-tile, #courses-tile, #map-tile {
+  height: 200px;
+  width: 100%;
+  margin-bottom : 5px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  }
+  /* Home Page */
+
+#painting, #travel, #yoga, #karate, #dance, #language, #stock, #food, #center {
+  padding: 20px;  
+  font-size: 10px;
+  border-radius: 170px;
+}
+
+#painting h2, #travel h2, #yoga h2, #karate h2, #dance h2, #language h2, #stock h2, #food h2, #center h2 {
+  font-size: 20px;
+}
+
+#center #center-matter, #center h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/*Work*/
+#unt h2, #nist h2, #effcar h2 {
+   margin-top: 5px;
+   font-size: 28px;
+} 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  #header-nav {
+    padding-top: 10px;
+    height: 120px;
+  }
+  #navbar-title h1 {
+    padding-top: 10px;
+    font-size: 3.8vw; /* 1vw = 1% of viewport width */
+    margin-left: 40px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+  }
+
+  #logo-1, #logo-2 {
+    display:none;
+  }
+ 
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    height: 6 0px;
+    box-shadow: 0 0 10px #989898;
+    border: 2px solid #989898;
+    z-index: 1000;
+  }
+
+  #collapsable-nav {
+    margin-top: 70px;
+    margin-left: -10px;
+    width: 100%;
+    background-color:#222;    
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  
+  /* End Header */
+
+  /* Footer */
+.panel-footer {
+  float:left;
+  width:100%;
+}
+  .panel-footer section {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  #main-content #welcome{
+    font-size: 24px;
+  }
+  #cv-tile, #courses-tile {
+  height: 150px;
+  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  }
+
+#cv-tile span, #courses-tile span, #map-tile span {
+  font-size: 1.2em;
+  }
+
+#map-tile {
+  display: none;
+}
+
+/*Work*/
+#unt h2, #nist h2, #effcar h2 {
+   margin-top: 5px;
+   font-size: 20px;
+}
+
+/*Hobbies*/
+#painting, #travel, #yoga, #karate, #dance, #language, #stock, #food, #center {
+  padding: 20px;
+  font-size: 10px;
+  border-radius: 170px;
+}
+
+#painting h2, #travel h2, #yoga h2, #karate h2, #dance h2, #language h2, #stock h2, #food h2, #center h2 {
+  font-size: 14px;
+}
+
+#center #center-matter, #center h1 {
+  margin-bottom: 20px;
+  margin-top: 20px; 
+  font-size: 8px;
+}
+
+}
