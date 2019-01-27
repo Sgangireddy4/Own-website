@@ -123,7 +123,7 @@ body {
 /* HOME PAGE */
 
 #main-content{
-  background: url('../images/main-background.jpg'); 		
+  /*background: url('../images/main-background.jpg'); 		*/
   /*height: 550px;*/
   /*width: 95%;*/
   /*position: relative;*/
@@ -133,11 +133,11 @@ body {
 }
 
 #main-content .container{
-  /*background: url('../images/main-background.jpg');*/
+  background: url('../images/main-background.jpg');
   /*height: 550px;*/
   /*width: 95%;*/
   /*position: relative;*/
-  background-color: #AAF0F6;
+  /*background-color: #AAF0F6;*/
   box-shadow: 0 0 50px #181818;
   border: 2px solid #181818;
 }
