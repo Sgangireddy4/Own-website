@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background: #989898;
+  color: #FFFFE0;
+  background: #f1e6b9;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -43,7 +43,7 @@ body {
 
 #navbar-title h1 { 
   font-family: 'Lora', serif;
-  color: #008ae6;
+  color: #b085b0;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -68,7 +68,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #008ae6;
+  color: #b085b0;
   text-align: center;
 }
 #nav-list a:hover, #nav-list a:active {
@@ -99,6 +99,7 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #222;
+  color: #b085b0;
 
 }
 .panel-footer div.row {
@@ -111,7 +112,7 @@ body {
   font-size: 1em;
 }
 #address p {
-  color: #181818;
+  color: #b085b0;
   font-size: .8em;
   line-height: 1.8;
 }
@@ -127,7 +128,7 @@ body {
   /*height: 550px;*/
   /*width: 95%;*/
   /*position: relative;*/
-  background-color: #686868;
+  background-color: #BDB76B;
   box-shadow: 0 0 50px #181818;
   border: 2px solid #181818;
 }
@@ -136,12 +137,16 @@ body {
   font-weight: bolder;
   background: #181818;
   border: 1px solid #606060;
-  margin: 40px 0px 40px 0px;
+  margin: 10px 0px 10px 0px;
   box-shadow: 0 1px 15px 1px #606060;
   border-radius: 10px;
   font-size: 30px;
-  color: #989898;
+  color: #FFFFE0;
   padding: 30px;
+}
+
+#front-image{
+	margin: 0px auto 0px auto;
 }
 
 #cv-tile, #courses-tile, #map-tile {
@@ -163,7 +168,7 @@ body {
   width: 100%;
   text-align: center;
   font-size: 1.6em;
-  background-color:  #727aed;
+  background-color:  #b085b0;
   color: #fff;
   opacity: .8;
 }
@@ -285,10 +290,7 @@ body {
     float: right;
   }
 
-  #cv-tile, #courses-tile, #map-tile {
-  margin-bottom: 70px;
-  margin-top: 40px;
-}
+
   #center #center-matter, #center h1 {
   margin-bottom: 50px;
   margin-top: 50px;
@@ -300,10 +302,6 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
   
   /* Home Page */
-  #cv-tile, #courses-tile, #map-tile {
-  margin-bottom: 50px;
-  margin-top: 30px;
-  }
 
   /* End Home Page */
 #center #center-matter, #center h1 {
