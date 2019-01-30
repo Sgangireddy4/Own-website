@@ -96,25 +96,16 @@ body {
 /* FOOTER */
 .panel-footer {
   margin-top: 5px;
-  padding-top: 5px;
+  padding-top: 25px;
   padding-bottom: 5px;
   background-color: #222;
   color: #b085b0;
+  
 
 }
-.panel-footer div.row {
-  margin-bottom: 5px;
-}
-#Email, #address {
-  line-height: 1.2;
-}
-#Email> span, #address > span {
-  font-size: 1em;
-}
-#address p {
-  color: #b085b0;
-  font-size: .8em;
-  line-height: 1.8;
+.panel-footer div div p {
+  margin-bottom: 15px;
+  font-size: 24px;
 }
 
 /* END FOOTER */
