@@ -169,12 +169,18 @@ body {
 
 /*EDUCATION SUBPAGE*/
 
-#grad-school, #undergrad-school,  #publications {
+#grad-school, #undergrad-school{
   background: #181818;
   border: 1px solid #606060;
   margin: 5px;
   box-shadow: 0 1px 15px 1px #606060;
   border-radius: 10px;
+}
+
+#publications {
+  margin: 5px;
+  color: black;
+
 }
 
 #grad-school div, #undergrad-school div {
